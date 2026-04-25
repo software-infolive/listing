@@ -1,0 +1,7 @@
+name,state,active,slug,cities_count,listings_count
+Mumbai,Maharashtra,true,mumbai,2,234
+Pune,Maharashtra,true,pune,2,216
+Bangalore Urban,Karnataka,true,bangalore-urban,2,290
+Mysore,Karnataka,true,mysore,1,90
+Central Delhi,Delhi,true,central-delhi,2,180
+South Delhi,Delhi,true,south-delhi,2,140

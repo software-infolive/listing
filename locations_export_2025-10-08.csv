@@ -1,0 +1,21 @@
+type,name,state,district,population,listings,active,slug
+state,Maharashtra,,,,,true,maharashtra
+district,Mumbai,Maharashtra,,,,true,mumbai
+city,Mumbai,Maharashtra,Mumbai,12.5M,156,true,mumbai
+city,Navi Mumbai,Maharashtra,Mumbai,1.2M,78,true,navi-mumbai
+district,Pune,Maharashtra,,,,true,pune
+city,Pune,Maharashtra,Pune,3.1M,145,true,pune
+city,Pimpri-Chinchwad,Maharashtra,Pune,1.7M,71,true,pimpri-chinchwad
+state,Karnataka,,,,,true,karnataka
+district,Bangalore Urban,Karnataka,,,,true,bangalore-urban
+city,Bangalore,Karnataka,Bangalore Urban,8.4M,234,true,bangalore
+city,Yelahanka,Karnataka,Bangalore Urban,250K,56,true,yelahanka
+district,Mysore,Karnataka,,,,true,mysore
+city,Mysore,Karnataka,Mysore,920K,90,true,mysore
+state,Delhi,,,,,true,delhi
+district,Central Delhi,Delhi,,,,true,central-delhi
+city,Connaught Place,Delhi,Central Delhi,150K,89,true,connaught-place
+city,Karol Bagh,Delhi,Central Delhi,200K,91,true,karol-bagh
+district,South Delhi,Delhi,,,,true,south-delhi
+city,Hauz Khas,Delhi,South Delhi,180K,78,true,hauz-khas
+city,Greater Kailash,Delhi,South Delhi,120K,62,true,greater-kailash
