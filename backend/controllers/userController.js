@@ -1,17 +1,17 @@
 // controllers/userController.js
-const User = require('../models/userModel');
+const userService = require('../services/userService');
 
 exports.getUsers = (req, res) => {
-  User.getAll((err, results) => {
-    if (err) return res.status(500).send(err);
+  userService.getAllUsers((err, results) => {
+    if (err) return res.status(500).json({ error: err.message });
     res.json(results);
   });
 };
 
 exports.createUser = (req, res) => {
-  const { name, email } = req.body;
-  User.create({ name, email }, (err, results) => {
-    if (err) return res.status(500).send(err);
-    res.json({ message: 'User added successfully', id: results.insertId });
+  userService.createUser(req.body, (err, result) => {
+    if (err) return res.status(500).json({ error: err.message });
+    res.status(201).json({ message: 'User added successfully', user: result });
   });
 };
+
